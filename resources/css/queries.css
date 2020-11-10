@@ -1,0 +1,362 @@
+/* Big tables to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    section { padding: 50px 3%; }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 18px; }
+    section { padding: 40px 10px; }
+    
+    .pana { margin-left: 10px; }
+    
+    .main-nav {
+        position: static;
+        height: 100vh;
+        width: 100%;
+        display: none;
+        float: none;
+        margin: 0 auto;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        background-color: rgba(8, 8, 8, 0.90);
+    }
+    
+    .main-nav li { 
+        display: block;
+        margin-left: 0;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 160%;
+        padding: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 160%;
+        padding: 10px;
+    }
+    
+    .mobile-nav-icon { 
+        display: inline-block;
+        margin: 18px 10px;
+    }
+    
+    .infographic { padding: 0 4%; }
+    .infographic .box {
+        text-align: center;
+    }
+    
+    .section-social { background-attachment: scroll; }
+    
+    .section-social .row { margin: 15px auto 15px auto; }
+
+    .facebook {
+        float: none;
+        margin: 0 auto 0 auto;
+        width: 240px;
+        height: 240px;
+    }
+
+    .facebook:before {
+        font-size: 22px;
+        line-height: 38px;
+        top: calc(100% - 22px);
+        left: calc(50% - 22px);
+        width: 38px;
+        height: 38px;
+    }
+    
+    .facebook-msg {
+        float: none;
+        margin: 30px auto 0 auto;
+        width: 460px;
+    }
+
+    .twitter {
+        float: none;
+        margin: 0 auto 0 auto;
+        width: 240px;
+        height: 240px;
+    }
+
+    .twitter:before {
+        font-size: 22px;
+        line-height: 38px;
+        top: calc(100% - 22px);
+        left: calc(50% - 22px);
+        width: 38px;
+        height: 38px;
+    }
+    
+    .twitter-msg {
+        float: none;
+        margin: 30px auto 0 auto;
+        width: 460px;
+    }
+    
+    .instagram {
+        width: 300px;
+        height: 300px;
+    }
+
+    .instagram:before {
+        font-size: 22px;
+        line-height: 38px;
+        top: calc(100% - 22px);
+        left: calc(50% - 22px);
+        width: 38px;
+        height: 38px;
+    }
+    
+    .events-container p {
+        margin: 80px 20px 46px 20px;
+    }
+    
+    .news-container p {
+        margin: 80px 20px 46px 20px;
+    }
+    
+    .content img {
+        margin: 20px 76px;
+    }
+    
+    .desc img {
+        margin: 0;
+    }
+
+    .box1 {
+        position: relative;
+        margin: 20px 0 20px 30px;
+    }
+    
+    .box2 {
+        z-index: 9;
+        position: relative;
+        margin: 50px 0 20px 320px;
+    }
+    
+    .mission img {
+        width: 48%;
+        margin: -350px 0 80px 360px;
+    }
+
+    .vision img {
+        position: relative;
+        width: 44%;
+        margin: -270px 0 80px 40px;
+    }
+    
+    .news img { margin-top: 30px; }
+    
+    .news p { 
+        margin-left: 20px;
+        width: 420px;
+    }
+    
+    footer { height: 200px; }
+    
+    .footer-container { padding: 2% 2%; }
+    
+    .footer-social-fb:before {
+        font-size: 18px;
+        line-height: 30px;
+        border: 2px solid #fff;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-social-tw:before {
+        font-size: 18px;
+        line-height: 30px;
+        border: 2px solid #fff;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-social-in:before {
+        font-size: 18px;
+        line-height: 30px;
+        border: 2px solid #fff;
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    
+    .main-slider { height: 50vh; }
+    
+    nav { height: 70px; }
+    
+    .pana { 
+        margin-left: 10px;
+    }
+    
+    .main-nav {
+        position: static;
+        height: 100vh;
+        width: 100%;
+        display: none;
+        float: none;
+        margin: 0 auto;
+        padding-top: 50%;
+        padding-bottom: 50%;
+        background-color: rgba(8, 8, 8, 0.90);
+    }
+    
+    .main-nav li { 
+        display: block;
+        margin-left: 0;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 160%;
+        padding: 10px;
+    }
+    
+    .sub-nav {
+        margin: 0 20px;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 160%;
+        padding: 10px;
+    }
+    
+    .mobile-nav-icon { 
+        display: inline-block;
+        margin: 18px 10px;
+    }
+    
+    .infographic .box { font-size: 90%; }
+    
+    .span-1-of-3 { width: 100%; }
+    
+    .events-container { padding-left: 0; }
+    
+    .events-container p {
+        margin: 100px 20px 86px 20px;
+    }
+    
+    .news-container p {
+        margin: 100px 20px 86px 20px;
+    }
+    
+    .event1 { float: none; }
+    
+    .event2 { display: none; }
+    
+    .event3 { display: none; }
+    
+    .news-container { padding-left: 0; }
+    
+    .news1 { float: none; }
+    
+    .news2 { display: none; }
+    
+    .news3 { display: none; }
+    
+    .facebook {
+        float: none;
+        margin: 0 auto 0 auto;
+        width: 240px;
+        height: 240px;
+    }
+    
+    .facebook-msg {
+        width: 420px;
+    }
+    
+    .twitter-msg {
+        width: 420px;
+    }
+    
+    .content img {
+        margin: 20px 46px;
+    }
+    
+    .desc img {
+        margin: 0;
+    }
+    
+    .box1 {
+        margin: 20px 0 20px 30px;
+    }
+    
+    .box2 {
+        margin: 50px 0 20px 30px;
+    }
+    
+    .mission img {
+        width: 68%;
+        margin: -60px 0 0 74px;
+    }
+
+    .vision img {
+        width: 68%;
+        margin: -60px 0 0 74px;
+    }
+    
+    .calendar .col {
+        padding-left: 18px;
+    }
+    
+    .news img { margin-left: 14px; }
+        
+    input[type=text],
+    input[type=email],
+    select,
+    textarea { width: 146%; }
+    
+    footer { height: 100%; }
+    
+    .footer-content img {
+        width: 80px;
+        display: block;
+        margin:  0 auto 5px auto;
+    }
+    
+    .footer-content h5 {
+        margin:  0 auto 5px auto;
+        text-align: center;
+    }
+    
+    .footer-content p {
+        margin:  0 auto 0 auto;
+        width: 400px;
+        text-align: center;
+    }
+    
+    .footer-social {
+        float: none;
+        margin: 10px auto 5px auto;
+        text-align: center;
+    }
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body { font-size: 12px; }
+    
+    .pana { font-size: 18px;}
+}
+
